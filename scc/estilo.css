@@ -1,0 +1,23 @@
+.titulo {
+    background-color: #209027;
+    width: 80%;
+}
+
+div {
+    background-color: #3c8adc;
+    width: 50%;
+
+}
+
+body {
+    background-color: #50af4d;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #390512;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
