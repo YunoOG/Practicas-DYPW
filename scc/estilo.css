@@ -1,23 +1,82 @@
+/* Estilos del título */
 .titulo {
     background-color: #209027;
     width: 80%;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
 }
 
+/* Estilos de los div */
 div {
-    background-color: #3c8adc;
+    background-color: #8cb2db;
     width: 50%;
-
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
 }
 
+/* Estilos del cuerpo de la página */
 body {
-    background-color: #50af4d;
+    background-color: #368033;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Estilos de los encabezados h1 y h3 */
 h1 {
     font-family: 'Roboto Slab', serif;
-    color: #390512;
+    color: #061692;
+    text-align: center;
 }
 
 h3 {
     font-family: 'Josefin Sans', sans-serif;
+    color: #043417;
+    text-align: justify;
+}
+
+h4 {
+
+}
+
+/* Estilos de la barra de navegación */
+ul.navegacion {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #145a23;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+ul.navegacion li {
+    text-align: center;
+}
+
+ul.navegacion li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+}
+
+ul.navegacion li a:hover {
+    background-color: #08351a;
+}
+
+/* Estilos del iframe */
+iframe {
+    border: 2px solid #0b793b;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
